@@ -13,7 +13,7 @@ import socket
 import time
 import sys 
 stdoutOrigin=sys.stdout #Dosyaya Yaz
-sys.stdout = open("disk.log", "w")
+sys.stdout = open("disk.txt", "w")
 print("____________DISK_____________")
 hostname = socket.gethostname()
 ip_address = socket.gethostbyname(hostname)
