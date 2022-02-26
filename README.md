@@ -1,9 +1,9 @@
 # Cihaz-Bilgileri-Device-information
 Device name / Ip Address / Storage/Cache / CPU / Battery percentage
 
-<h1>Bu projede ciaz adını, Dinamik, Statik IP adresini, Kullanılabilir, Toplam
+Bu projede ciaz adını, Dinamik, Statik IP adresini, Kullanılabilir, Toplam
 Depolama alanı/Önbellek, Kullanılıan sürücü, CPU kullanılma durumu,Batarya yuzdesi,
-Kopyalanmış metin gibi bilgileri işleyip disk.txt adında txt dosyasına yazıyoruz.</h1>
+Kopyalanmış metin gibi bilgileri işleyip disk.txt adında txt dosyasına yazıyoruz.
 
 
 In this project, device name, Dynamic, Static IP address, Available/Total
