@@ -1,6 +1,6 @@
 """
-Bu projede ciaz adını, Dinamik, Statik IP adresini, Kullanılabilir, Toplam
-Depolama alanı/Önbellek, Kullanılıan sürücü, CPU kullanılma durumu,Batarya yuzdesi,
+Bu projede cihaz adını, Dinamik, Statik IP adresini, Kullanılabilir, Toplam
+Depolama alanı/Önbellek, Kullanılıan sürücü, CPU kullanılma durumu, Batarya yuzdesi,
 Kopyalanmış metin gibi bilgileri işleyip disk.txt adında txt dosyasına yazıyoruz.
 
 
