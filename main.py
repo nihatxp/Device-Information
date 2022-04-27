@@ -74,7 +74,7 @@ print("-"*30)
 for x in range(5):
      cpu="|CPU "+str(psutil.cpu_percent(interval=1))+"|"
      print(cpu)
-#Çıktısı : 5.6, 75.8 gibi anlık işlemci kullanım değeri olacak.
+#anlık işlemci kullanım değeri.
 print("-"*30)
 print("-"*30)
 #Batarya Durumu
@@ -83,13 +83,11 @@ def convertTime(seconds):
     hours, minutes = divmod(minutes, 60)
     return "%d:%02d:%02d" % (hours, minutes, seconds)
   
-# returns a tuple
 battery = psutil.sensors_battery()
   
 print("Batarya Yuzdesi : ", battery.percent)
 print("Sarj durumu : ", battery.power_plugged)
   
-# converting seconds to hh:mm:ss
 print("Pil kaldi : ", convertTime(battery.secsleft))
 #pyperclip ile kopyalanmis metni alalim
 import pyperclip
