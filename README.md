@@ -26,6 +26,7 @@ Toplam: 476.94 GB
 Kullanılabilir: 296.63 GB
 Boşta: 180.31 GB
 Percent: 37.9%
+```
 
 
 Kodun Kullanımı
