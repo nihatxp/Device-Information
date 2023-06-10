@@ -34,15 +34,13 @@ Kodun Kullanımı
 
 Kodun kullanımı için aşağıdaki adımları izleyin:
 
-1.  Gereksinimleri karşılayan gerekli kütüphaneleri yükleyin.
-2.  Yukarıdaki kodu bir Python dosyasına (`device_info.py`) yapıştırın.
-3.  Terminali açın ve Python betiğini çalıştırın:
+1.  `git clone https://github.com/nihatxp/Device-Information.git`
+2.  `cd Device-Information`      
+3.  `Gereksinimleri karşılayan gerekli kütüphaneleri yükleyin.`
+4.  `python main.py --all`
 
-```
-`python device_info.py --all`
-```
 
-Yukarıdaki komut, tüm cihaz bilgilerini göstermek için `--all` bayrağını kullanır. İlgili bayrağı değiştirerek veya birden fazla bayrağı birleştirerek belirli bilgileri gösterebilirsiniz.
+Yukarıdaki komut, tüm cihaz bilgilerini göstermek için `--all` argümanını kullanır. İlgili argümanı değiştirerek veya birden fazla argümanı birleştirerek belirli bilgileri gösterebilirsiniz.
 
 Örnek komutlar:
 
